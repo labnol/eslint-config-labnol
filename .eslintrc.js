@@ -39,10 +39,12 @@ module.exports = {
       },
     ],
     'react/prop-types': 'off',
-    'react/react-in-jsx-scope': 'off',
+    'react/react-in-jsx-scope': 'error',
+    'react/jsx-uses-react': 'error',
+    'react/jsx-uses-vars': 'error',
     'import/prefer-default-export': 'off',
     'react/jsx-filename-extension': [
-      1,
+      'error',
       {
         extensions: ['.js', '.jsx'],
       },

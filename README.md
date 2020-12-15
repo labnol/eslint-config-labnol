@@ -31,3 +31,23 @@ module.exports = {
   },
 };
 ```
+
+## ESlint and Prettier in VS Code
+
+Update your VS Code settings to run the linter action on saving the file.
+
+```json
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true
+  },
+  "files.autoSave": "onFocusChange",
+  "eslint.validate": ["javascript", "javascriptreact"]
+}
+```

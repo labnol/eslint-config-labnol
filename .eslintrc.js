@@ -1,15 +1,15 @@
 module.exports = {
   parser: 'babel-eslint',
-  plugins: ['html', 'prettier', 'react'],
+  plugins: ['html', 'react', 'react-hooks', 'prettier'],
   extends: [
     'airbnb-base',
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:prettier/recommended',
+    'prettier/react',
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:react-hooks/recommended',
-    'prettier/react',
   ],
   parserOptions: {
     ecmaFeatures: {
@@ -39,9 +39,8 @@ module.exports = {
       },
     ],
     'react/prop-types': 'off',
-    'react/react-in-jsx-scope': 'error',
-    'react/jsx-uses-react': 'error',
-    'react/jsx-uses-vars': 'error',
+    'react/react-in-jsx-scope': 'off',
+    'react/jsx-uses-react': 'off',
     'import/prefer-default-export': 'off',
     'react/jsx-filename-extension': [
       'error',

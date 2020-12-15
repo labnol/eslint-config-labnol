@@ -1,6 +1,6 @@
 module.exports = {
   parser: 'babel-eslint',
-  plugins: ['html', 'react', 'react-hooks', 'prettier'],
+  plugins: ['html', 'react', 'react-hooks', 'prettier', 'googleappsscript'],
   extends: [
     'airbnb-base',
     'eslint:recommended',
@@ -22,11 +22,7 @@ module.exports = {
     browser: true,
     es6: true,
     node: true,
-  },
-  settings: {
-    react: {
-      version: 'detect',
-    },
+    'googleappsscript/googleappsscript': true,
   },
   rules: {
     'prettier/prettier': [

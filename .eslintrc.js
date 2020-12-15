@@ -1,15 +1,16 @@
 module.exports = {
-  plugins: ['html', 'react', 'prettier'],
+  parser: 'babel-eslint',
+  plugins: ['html', 'prettier', 'react'],
   extends: [
-    'eslint:recommended',
     'airbnb-base',
+    'eslint:recommended',
     'plugin:react/recommended',
+    'plugin:prettier/recommended',
     'plugin:import/errors',
     'plugin:import/warnings',
-    'plugin:prettier/recommended',
     'plugin:react-hooks/recommended',
+    'prettier/react',
   ],
-  parser: 'babel-eslint',
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -21,6 +22,11 @@ module.exports = {
     browser: true,
     es6: true,
     node: true,
+  },
+  settings: {
+    react: {
+      version: 'detect',
+    },
   },
   rules: {
     'prettier/prettier': [
@@ -35,6 +41,12 @@ module.exports = {
     'react/prop-types': 'off',
     'react/react-in-jsx-scope': 'off',
     'import/prefer-default-export': 'off',
+    'react/jsx-filename-extension': [
+      1,
+      {
+        extensions: ['.js', '.jsx'],
+      },
+    ],
     'no-await-in-loop': 'off',
     'no-unused-vars': [
       1,

@@ -11,9 +11,9 @@
   "license": "MIT",
   "peerDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.15.0",
+    "eslint": "^7.16.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-config-prettier": "^7.0.0",
+    "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-html": "^6.1.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-prettier": "^3.3.0",
@@ -24,9 +24,9 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.15.0",
+    "eslint": "^7.16.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-config-prettier": "^7.0.0",
+    "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-html": "^6.1.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-prettier": "^3.3.0",

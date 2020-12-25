@@ -40,9 +40,6 @@
   },
   "homepage": "https://github.com/labnol/eslint-config-labnol#readme",
   "dependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "eslint",
     "prettier",

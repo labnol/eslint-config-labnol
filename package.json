@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-labnol",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "ESLint and Prettier Config",
   "main": "index.js",
   "repository": {

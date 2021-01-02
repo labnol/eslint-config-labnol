@@ -11,6 +11,11 @@ module.exports = {
     'plugin:import/warnings',
     'plugin:react-hooks/recommended',
   ],
+  settings: {
+    react: {
+      version: 'latest',
+    },
+  },
   parserOptions: {
     ecmaFeatures: {
       jsx: true,

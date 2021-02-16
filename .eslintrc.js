@@ -29,13 +29,14 @@ module.exports = {
     node: true,
     'googleappsscript/googleappsscript': true,
   },
+  ignorePatterns: ['node_modules/'],
   rules: {
     'prettier/prettier': [
       'error',
       {
         trailingComma: 'es5',
         singleQuote: true,
-        printWidth: 80,
+        printWidth: 120,
         endOfLine: 'auto',
       },
     ],

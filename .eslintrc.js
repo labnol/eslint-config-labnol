@@ -54,7 +54,8 @@ module.exports = {
       1,
       {
         ignoreRestSiblings: true,
-        argsIgnorePattern: 'res|next|^err|^ignore',
+        argsIgnorePattern: 'res|next|^err|^ignore|^_',
+        caughtErrors: 'none',
       },
     ],
   },

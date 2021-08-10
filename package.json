@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-labnol",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "ESLint and Prettier Config",
   "main": "index.js",
   "repository": {
@@ -8,18 +8,18 @@
     "url": "git+ssh://git@github.com/labnol/eslint-config-labnol.git"
   },
   "scripts": {
-    "start": "npx install-peerdeps --global eslint-config-labnol@latest"
+    "install": "npx install-peerdeps --global eslint-config-labnol@latest"
   },
   "author": "Amit Agarwal <amit@labnol.org>",
   "license": "MIT",
   "peerDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.29.0",
+    "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-googleappsscript": "^1.0.4",
     "eslint-plugin-html": "^6.1.2",
-    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-import": "^2.24.0",
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
@@ -27,12 +27,12 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.29.0",
+    "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-googleappsscript": "^1.0.4",
     "eslint-plugin-html": "^6.1.2",
-    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-import": "^2.24.0",
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",

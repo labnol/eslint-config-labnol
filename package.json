@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-labnol",
-  "version": "1.0.19",
+  "version": "1.0.21",
   "description": "ESLint and Prettier Config",
   "main": "index.js",
   "repository": {
@@ -8,7 +8,7 @@
     "url": "git+ssh://git@github.com/labnol/eslint-config-labnol.git"
   },
   "scripts": {
-    "install": "npx install-peerdeps --global eslint-config-labnol@latest"
+    "localinstall": "npx install-peerdeps --global eslint-config-labnol@latest"
   },
   "author": "Amit Agarwal <amit@labnol.org>",
   "license": "MIT",
@@ -19,9 +19,9 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-googleappsscript": "^1.0.4",
     "eslint-plugin-html": "^6.1.2",
-    "eslint-plugin-import": "^2.24.0",
-    "eslint-plugin-prettier": "^3.4.0",
-    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.25.1",
     "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "^2.3.2"
   },
@@ -32,9 +32,9 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-googleappsscript": "^1.0.4",
     "eslint-plugin-html": "^6.1.2",
-    "eslint-plugin-import": "^2.24.0",
-    "eslint-plugin-prettier": "^3.4.0",
-    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.25.1",
     "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "^2.3.2"
   },

@@ -1,5 +1,8 @@
 # eslint-config-labnol
 
+> [!WARNING]
+> This package is no longer maintained. Use [@labnol/js-config](https://github.com/labnol/js-config) instead. It has ESLint 10 flat configs for Apps Script, Node and React, plus a Prettier config.
+
 ESLint and Prettier configuration for [Digital Inspiration](https://digitalinspiration.com/) projects
 
 ## Installation
